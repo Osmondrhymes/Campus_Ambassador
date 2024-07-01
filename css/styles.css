@@ -32,7 +32,7 @@ margin: 24px 0 32px 0;
     
     font-weight: 700;
     width: 28%;
-    height: 8%;
+    /* height: 8%; */
 }
 
 span {
@@ -755,8 +755,13 @@ hr {
         margin-bottom: 40px;
     }
 
-
+    .footer-row {
+        padding: 0;
+    }
    
+    .Grazac-logo-col {
+        width: 90%;
+    }
 
 
 
