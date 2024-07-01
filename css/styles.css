@@ -206,7 +206,7 @@ text-align: center;
     overflow: hidden;
     margin: auto;
     margin-bottom: 40px;
-    width: 99%;
+    width: 94%;
   }
   
   .search-icon {
@@ -323,9 +323,14 @@ text-align: center;
   border-radius: 8px;
 }
 
+.dropbtn02:hover {
+    background-color: #773dd3;
+    
+}
+
 .FAQ-paragraph02 {
     padding-left: 20px;
-    display: none;
+    
 }
 
 
@@ -335,6 +340,7 @@ text-align: center;
     text-align: center;
     padding-top: 122px;
     padding-bottom: 132px;
+    background-image: url(Images/Stroke.png);
 }
 
 .cta-divh1 {
@@ -467,11 +473,11 @@ hr {
     }
 
     .feature-contain {
-        padding: 16px;
+        padding: 200px;
     }
 
     .h1-feature {
-        width: 80%;
+        width: 70%;
         margin-top: 50px;
     }
 
@@ -501,6 +507,11 @@ hr {
         width: 28%;
         height: 10%;
     }
+
+    .search-img {
+        margin-left: 0;
+    }
+
     
     .grid-h1 {
         margin-bottom: 8px;
@@ -508,8 +519,13 @@ hr {
         }
 
     .grid-p {
-        padding-right: 30px;
-        padding-left: 50px;
+        padding-right: 10px;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+    .grid-h5{
+        font-size: 25px;
     }
 
     .cta-contain {
@@ -557,12 +573,12 @@ hr {
     }
 
     .cta-contain {
-        padding: 24px;
+        padding: 20px;
     }
 
     .footer-contain {
         padding-right: 50px;
-        padding-left: 24px;
+        padding-left: 20px;
     }
 
     .footer-row {
@@ -581,7 +597,7 @@ hr {
    
     
     .FAQ-div {
-        padding-left: 24px;
+        padding: 80px 20px 80px 20px;
     }
 
     .column-div {
@@ -589,9 +605,13 @@ hr {
         padding-right: 35px;
     }
 
+    .copyright-contain{
+        margin: 0;
+    }
 
-
-
+    .img-grid {
+        width: 100%;
+    }
 
 
     /* .features02-h1 {
@@ -748,7 +768,11 @@ hr {
 @media screen and (max-width: 1024px){
 
     .feature-contain {
-        padding: 80px 60px;
+        padding: 80px 10px;
+    }
+
+    .grid-fluid-container {
+        padding: 60px;
     }
 
     .h1-feature {
@@ -763,9 +787,9 @@ hr {
         padding: 20px;
     }
 
-    .container-fluid {
+    /* .container-fluid {
         padding: 30px 50px 50px 50px;
-    }
+    } */
 
     .amb-h1 {
         text-align: center;
@@ -799,9 +823,9 @@ hr {
 
     
 
-    .FAQ-div {
+    /* .FAQ-div {
         padding: 60px 40px 60px 40px;
-    }
+    } */
 
     /* .dropdown {
         width: 100%;
