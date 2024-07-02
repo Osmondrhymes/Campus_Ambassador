@@ -35,6 +35,11 @@ margin: 24px 0 32px 0;
     /* height: 8%; */
 }
 
+.btn:hover {
+    color: white;
+    background-color: #6f39c5;
+}
+
 span {
     color: #773DD3;
 }
@@ -384,6 +389,11 @@ text-align: center;
   width: 223px;
 }
 
+.cta-btn:hover {
+    color: white;
+    background-color: #6f39c5;
+}
+
 .footer-contain {
     margin-top: 80px;
 }
@@ -556,7 +566,7 @@ hr {
     } */
 
     .img-grid {
-        /* width: 100%; */
+        width: 80%;
     }
 
     .cta-contain {
