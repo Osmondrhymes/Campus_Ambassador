@@ -260,11 +260,11 @@ text-align: center;
 }
 
 .grid-p {
-    width: 80%;
+    width:100%;
     font-size: small;
-    margin: 0 10px 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 0 30px;
+    
+    
     
 
 }
@@ -281,6 +281,7 @@ text-align: center;
 .grid-h5 {
     margin-bottom: 4px;
     font-size: large;
+    width: 100%;
 }
 
 
@@ -344,7 +345,7 @@ text-align: center;
 
 .dropbtn02:hover {
     background-color: #773dd3;
-    
+    color: #ffffff;
 }
 
 .FAQ-paragraph02 {
@@ -488,7 +489,7 @@ hr {
     }
 
     .lovepng {
-        margin-bottom: -20px;
+        margin-bottom: -30px;
         width: 30%
     }
 
@@ -552,18 +553,27 @@ hr {
         }
 
     .grid-p {
-        padding-right: 10px;
-        padding-left: 30px;
+        padding: 0 90px;
         font-size: 15px;
+
     }
+
+    .grid-paragraph{
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+    .grid-h5{
+        font-size: 22px;
+    }
+
+
 
     /* .grid-row {
         
     } */
 
-    /* .grid-h5{
-        
-    } */
+    
 
     .img-grid {
         width: 80%;
@@ -719,6 +729,8 @@ hr {
         padding: 20px;
     }
 
+
+
     .crownpng {
         display: none;
     }
@@ -816,7 +828,7 @@ hr {
     }
 
     .grid-fluid-container {
-        padding: 60px;
+        padding: 20px;
     }
 
     .h1-feature {
@@ -839,7 +851,7 @@ hr {
         text-align: center;
         padding-top: 80px;
         padding-bottom: 50px;
-        width: 70%;
+        width: 75%;
         margin: auto;
     }
     
@@ -852,8 +864,8 @@ hr {
     }
     
     .column-div {
-        padding-left: 30px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
     .column-div-paragraph {
