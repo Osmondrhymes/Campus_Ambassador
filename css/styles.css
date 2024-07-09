@@ -100,7 +100,7 @@ background-color: #F9F5FF;
 }
 
 .feature-contain {
-    padding: 80px 240px 80px 240px;
+    padding: 80px 200px 80px 200px;
 }
 
 .h1-feature{
@@ -125,6 +125,10 @@ background-color: #F9F5FF;
 
 .feature-env-img {
     margin: 27px 0 24px 0;
+}
+
+.feature-env-img2 {
+    margin: 66.8px 0 30px 0;
 }
 
 .feature-h3 {
@@ -160,8 +164,7 @@ background-color: #F9F5FF;
 .column-div-groupedparagraph {
     margin-bottom: 40px;
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
+    align-items: flex-start;
 }
 
 .icon-div {
@@ -175,17 +178,6 @@ background-color: #F9F5FF;
 .div-row {
     margin-right: 0;
 }
-
-/* .features02-contain {
-    padding: 0;
-}
-
-.features02-h1 {
-    text-align: center;
-    width: 50%;
-    margin: 0  auto 80px;
-    padding-top: 80px;
-} */
 
 
 
@@ -207,9 +199,6 @@ background-color: #F9F5FF;
     font-weight: 700;
 }
 
-/* .card-coloumn {
-    text-align: center;
-} */
 
 #grid-section {
     background-color: #F9F5FF
@@ -543,9 +532,9 @@ hr {
         margin-bottom: 25.12px;
     }
     
-    .imgg-divv {
+    /* .imgg-divv {
         margin-bottom: 25.12px;
-    }
+    } */
 
     .btn {
         width: 28%;
@@ -564,7 +553,7 @@ hr {
 
     .grid-p {
         padding: 0 90px;
-        font-size: 15px;
+        font-size: 90%;
 
     }
 
@@ -574,7 +563,7 @@ hr {
     }
 
     .grid-h5{
-        font-size: 22px;
+        font-size: 130%;
     }
 
 
@@ -670,64 +659,6 @@ hr {
         margin: 0;
     }
 
-    
-
-
-    /* .features02-h1 {
-        width: 75%;
-    }
-
-    .features02-row {
-        margin: 0;
-    }
-
-    .features02-col {
-        padding: 0;
-    }
-
-    .features02-img {
-        width: 100%;
-    }
-
-    .features02-col {
-        padding: 0 0 24px 0;
-    }
-
-    .features02-col > img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .features02-col2 {
-        padding: 0;
-    } */
-    
-
-
-
-
-
-
-
-    /* .div-flex {
-        display: flex;
-        flex-wrap: wrap;
-    } */
-
-    /* .img-div {
-        flex: 1;
-        margin: 10px;
-    } */
-    
-    
-    /* .div-flex2 {
-        
-    } */
-    
-    
-    
-   
-
 }
 
 
@@ -777,17 +708,6 @@ hr {
         padding: 0;
     }
 
-    /* .amb-h1 {
-        text-align: center;
-        padding-top: 80px;
-        padding-bottom: 50px;
-        width: 70%;
-        margin: auto;
-    }
-    
-    .amb-container {
-        padding: 0;
-    } */
 
     .img2 {
         width: 100%
@@ -885,23 +805,5 @@ hr {
     .column-div-groupedparagraph {
         margin-bottom: 20px;
     }
-
-
-    
-
-    /* .FAQ-div {
-        padding: 60px 40px 60px 40px;
-    } */
-
-    /* .dropdown {
-        width: 100%;
-    } */
-
-
-
-
-
-
-
 }
 
