@@ -251,7 +251,8 @@ text-align: center;
 
 .grid-paragraph {
     text-align: center;
-    margin-bottom: 24px;
+    margin: 0 auto 24px;
+    width: 95%;
 }
 
 .col-divv {
@@ -296,6 +297,10 @@ text-align: center;
 .FAQ-h1 {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.support-email {
+    text-decoration: none;
 }
 
 .dropdown {
@@ -437,12 +442,13 @@ padding-left: 225px;
 } */
 
 .copyright-contain {
-    padding: 40px 80px 40px 150px;
+    padding: 40px 0 40px 0;
 }
 
 .copyright-text {
     color: #787676;
     font-size: 16px;
+    width: 100%;
 }
 
 .footer-row {
@@ -459,6 +465,10 @@ hr {
     border: solid 3px;
     border-bottom: none;
     color: #eff2f7;
+  }
+
+  .footer-icon {
+      margin: 5px;
   }
 
 
@@ -558,7 +568,7 @@ hr {
     }
 
     .grid-paragraph{
-        font-size: 20px;
+       
         margin: 20px 0;
     }
 
@@ -635,6 +645,21 @@ hr {
         padding-left: 0;
         margin: 0;
 
+    }
+
+    .footer-link{
+        font-size: 12px;
+    }
+
+    .copyright-text{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    
+
+    .footer-col {
+        margin-bottom: 10px;
     }
 
     .footer-logo{
@@ -744,6 +769,14 @@ hr {
         width: 90%;
     }
 
+    .footer-link{
+        font-size: 12px;
+    }
+
+    .copyright-text{
+        font-size: 12px;
+    }
+
 
 
 }
@@ -806,4 +839,13 @@ hr {
         margin-bottom: 20px;
     }
 }
+
+.footer-link{
+    font-size: 12px;
+}
+
+.copyright-text{
+    font-size: 12px;
+}
+
 
