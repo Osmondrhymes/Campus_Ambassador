@@ -283,6 +283,10 @@ input[type="search"]:focus {
   text-decoration: none;
 }
 
+.support-number {
+  text-decoration: none;
+}
+
 .dropdown {
   width: 100%;
   margin-bottom: 14px;
@@ -406,6 +410,12 @@ input[type="search"]:focus {
 }
 
 .footer-link {
+  color: #787676;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-tel {
   color: #787676;
   font-size: 16px;
   text-decoration: none;
@@ -699,9 +709,6 @@ hr {
     padding: 0;
   }
 
-  .Grazac-logo-col {
-    width: 90%;
-  }
 }
 
 /* Laptop (Mini-laptop-1024px) */
