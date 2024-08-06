@@ -12,7 +12,6 @@ h1 {
 }
 
 .first-h1 {
-  width: 90%;
   margin-top: 62.62px;
 }
 
@@ -52,7 +51,6 @@ span {
 
 .span-amb {
   color: #773dd3;
-  text-decoration: underline;
 }
 
 .lovepng {
@@ -325,6 +323,7 @@ input[type="search"]:focus {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  text-align: start;
   border-radius: 8px;
 }
 
@@ -343,7 +342,7 @@ input[type="search"]:focus {
   text-align: center;
   padding-top: 122px;
   padding-bottom: 132px;
-  background-image: url(Images/Stroke.png);
+  background-image: url("../Images/Stroke.png");
 }
 
 .cta-divh1 {
@@ -360,7 +359,7 @@ input[type="search"]:focus {
 }
 
 .cta-btn {
-  margin-top: 20px;
+  margin-top: 20px; 
   color: #773dd3;
   font-family: Nunito Sans;
   font-weight: 900;
@@ -410,6 +409,10 @@ input[type="search"]:focus {
   color: #787676;
   font-size: 16px;
   text-decoration: none;
+}
+
+.Terms-ancho {
+  margin-left: 20px;
 }
 
 /* .footer-contain {
@@ -513,10 +516,6 @@ hr {
     margin-bottom: 25.12px;
   }
 
-  /* .imgg-divv {
-        margin-bottom: 25.12px;
-    } */
-
   .btn {
     width: 28%;
     height: 10%;
@@ -537,17 +536,13 @@ hr {
   }
 
   .grid-paragraph {
-    font-size: 20px;
+    /* font-size: 20px; */
     margin: 20px 0;
   }
 
   .grid-h5 {
     font-size: 130%;
   }
-
-  /* .grid-row {
-        
-    } */
 
   .img-grid {
     width: 80%;
@@ -713,7 +708,7 @@ hr {
 
 @media screen and (max-width: 1024px) {
   .feature-contain {
-    padding: 80px 10px;
+    padding: 80px 30px;
   }
 
   .grid-fluid-container {
