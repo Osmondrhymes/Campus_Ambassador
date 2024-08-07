@@ -299,25 +299,6 @@ input[type="search"]:focus {
   fill: #ffffff;
 }
 
-
-    
-    #icon {
-      transition: transform 0.3s ease, color 0.3s ease;
-      color: black; 
-      transform: rotate(90deg); 
-    }
-
-   
-    #icon:hover {
-      color: #ffffff; 
-      transform: rotate(270deg);
-    }
-
-    #icon.clicked {
-      transform: rotate(0deg); 
-      color: #ffffff; 
-    }
-
 .support-email {
   text-decoration: none;
 }
@@ -326,24 +307,6 @@ input[type="search"]:focus {
   text-decoration: none;
 }
 
-.dropdown {
-  width: 100%;
-  margin-bottom: 14px;
-}
-
-.dropbtn {
-  background-color: #773dd3;
-  color: white;
-  padding: 15px 20px;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border-radius: 8px;
-}
 
 .FAQ-paragraph {
   padding-left: 20px;
@@ -353,6 +316,7 @@ input[type="search"]:focus {
   width: 100%;
   margin-bottom: 14px;
 }
+
 
 .dropbtn02 {
   background-color: #ffffff;
@@ -368,12 +332,29 @@ input[type="search"]:focus {
   justify-content: flex-start;
   text-align: start;
   border-radius: 8px;
+  transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .dropbtn02:hover {
   background-color: #773dd3;
   color: #ffffff;
 }
+
+#icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: black; 
+  transform: rotate(90deg); 
+}
+
+
+#icon:hover {
+  color: #ffffff; 
+}
+
+/* #icon.clicked {
+  transform: rotate(270deg); 
+  color: #ffffff; 
+} */
 
 .FAQ-paragraph02 {
   padding-left: 20px;
