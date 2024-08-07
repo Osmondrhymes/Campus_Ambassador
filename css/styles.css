@@ -6,6 +6,10 @@ body {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
+.nav-link {
+color: #000000;
+}
+
 h1 {
   font-family: "Georgia", sans-serif;
   font-weight: 900;
@@ -28,6 +32,10 @@ h1 {
 .first-paragraph {
   width: 95%;
   margin: 24px 0 32px 0;
+}
+
+.navbtn {
+  background-color: #000000;
 }
 
 .btn {
@@ -279,6 +287,30 @@ input[type="search"]:focus {
   margin-bottom: 50px;
 }
 
+.FAQ-down-png {
+  transition: transform 0.5s ease-in-out;
+
+}
+
+.FAQ-down-png:hover, .FAQ-down-png:active {
+  transform: rotate(180deg);
+  fill: #ffffff;
+}
+
+
+    
+    #icon {
+      transition: transform 0.3s ease, color 0.3s ease;
+      color: black; 
+      transform: rotate(90deg); 
+    }
+
+    /* Change color on hover */
+    #icon:hover {
+      color: #ffffff; 
+      transform: rotate(270deg);
+    }
+
 .support-email {
   text-decoration: none;
 }
@@ -421,9 +453,7 @@ input[type="search"]:focus {
   text-decoration: none;
 }
 
-.Terms-ancho {
-  margin-left: 20px;
-}
+
 
 /* .footer-contain {
 padding-left: 225px;
