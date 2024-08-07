@@ -346,10 +346,10 @@ input[type="search"]:focus {
   transform: rotate(90deg); 
 }
 
-
-#icon:hover {
-  color: #ffffff; 
+.dropbtn02:hover #icon {
+  color: #ffffff; /* Icon color on hover */
 }
+
 
 /* #icon.clicked {
   transform: rotate(270deg); 
