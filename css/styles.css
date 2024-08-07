@@ -6,6 +6,8 @@ body {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
+
+
 .nav-link {
 color: #000000;
 }
@@ -305,10 +307,15 @@ input[type="search"]:focus {
       transform: rotate(90deg); 
     }
 
-    /* Change color on hover */
+   
     #icon:hover {
       color: #ffffff; 
       transform: rotate(270deg);
+    }
+
+    #icon.clicked {
+      transform: rotate(0deg); 
+      color: #ffffff; 
     }
 
 .support-email {
