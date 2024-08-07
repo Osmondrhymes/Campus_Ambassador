@@ -347,8 +347,9 @@ input[type="search"]:focus {
 }
 
 .dropbtn02:hover #icon {
-  color: #ffffff; /* Icon color on hover */
+  color: #ffffff; 
 }
+
 
 
 /* #icon.clicked {
@@ -396,10 +397,7 @@ input[type="search"]:focus {
   width: 223px;
 }
 
-.cta-btn:hover {
-  color: white;
-  background-color: #6f39c5;
-}
+
 
 .footer-contain {
   margin-top: 80px;
