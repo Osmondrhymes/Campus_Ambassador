@@ -64,7 +64,7 @@
                     <a class="nav-link" href="https://www.grazacacademy.com/about-us">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://www.grazac.com.ng/workspace">Work space</a>
+                    <a class="nav-link" href="https://www.grazac.com.ng/workspace">Workspace</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.grazac.com.ng/blog">Blog</a>
@@ -503,6 +503,14 @@
     </section>
 
     </footer>
+
+    <script>
+      document.querySelectorAll('button').forEach(button => {
+        button.addEventListener('click', function() {
+          this.classList.toggle('clicked');
+        });
+      });
+    </script>
 
     <!-- <script>
       document.getElementById('icon').addEventListener('click', function() {

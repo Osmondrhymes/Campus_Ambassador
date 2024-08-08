@@ -350,12 +350,11 @@ input[type="search"]:focus {
   color: #ffffff; 
 }
 
-
-
-/* #icon.clicked {
-  transform: rotate(270deg); 
+.dropbtn02.clicked #icon {
+  transform: rotate(270deg);
   color: #ffffff; 
-} */
+}
+
 
 .FAQ-paragraph02 {
   padding-left: 20px;
