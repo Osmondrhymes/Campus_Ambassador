@@ -7,6 +7,32 @@ body {
 }
 
 
+.nav-btn {
+  background-color: #773dd3;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 9px;
+  width: 120px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.button-col{
+  padding-left: 10px;
+}
+
+.btn {
+  background-color: #773dd3;
+  color: #ffffff;
+  /* padding: 15px 30px; */
+
+  font-weight: 700;
+  width: 30%;
+  /* height: 8%; */
+  
+}
+
 
 .nav-link {
 color: #000000;
@@ -342,7 +368,7 @@ input[type="search"]:focus {
 
 #icon {
   transition: transform 0.3s ease, color 0.3s ease;
-  color: black; 
+  color: #000000; 
   transform: rotate(90deg); 
 }
 
@@ -352,9 +378,13 @@ input[type="search"]:focus {
 
 .dropbtn02.clicked #icon {
   transform: rotate(270deg);
-  color: #ffffff; 
+  color: #000000; 
 }
 
+
+.dropbtn02.clicked:hover #icon {
+  color: #ffffff;
+}
 
 .FAQ-paragraph02 {
   padding-left: 20px;
@@ -478,6 +508,21 @@ hr {
 @media screen and (max-width: 425px) {
   .navbar {
     padding: 24px 16px 8px 16px;
+  }
+
+  .button-col{
+    padding-left: 0;
+  }
+
+  .nav-btn {
+    background-color: #773dd3;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
   }
 
   .first-h1 {
@@ -658,6 +703,21 @@ hr {
 @media screen and (max-width: 768px) {
   .navbar {
     padding: 20px;
+  }
+
+  .button-col{
+    padding-left: 0;
+  }
+
+  .nav-btn {
+    background-color: #773dd3;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
   }
 
   .crownpng {
