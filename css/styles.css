@@ -120,8 +120,12 @@ span {
   background-color: #f9f5ff;
 }
 
-.feature-contain {
+/* .feature-contain {
   padding: 80px 200px 80px 200px;
+} */
+
+.feature-contain {
+  padding: 5% 12.5% 5% 12.5%;
 }
 
 .h1-feature {
@@ -173,21 +177,30 @@ span {
   padding: 0;
 }
 
+
 .column-div {
-  padding-left: 120px;
+  padding-left: 100px;
   padding-right: 50px;
 }
 
 .column-div-paragraph {
   margin-bottom: 40px;
-  width: 90%;
-  font-size: 17.5px;
+  width: 100%;
+  font-size: 100%;
+}
+
+.column-strong {
+  font-size: 100%;
 }
 
 .column-div-groupedparagraph {
   margin-bottom: 40px;
   display: flex;
   align-items: flex-start;
+}
+
+.img2 {
+  width: 110%;
 }
 
 .icon-div {
@@ -242,7 +255,7 @@ span {
   overflow: hidden;
   margin: auto;
   margin-bottom: 40px;
-  width: 94%;
+  width: 100%;
 }
 
 .search-icon {
@@ -280,7 +293,7 @@ input[type="search"]:focus {
 .grid-p {
   width: 100%;
   font-size: small;
-  padding: 0 30px;
+  padding: 0 10%;
 }
 
 .card-grid {
@@ -289,13 +302,14 @@ input[type="search"]:focus {
 
 .img-grid {
   margin-bottom: 7px;
+  width: 100%;
 }
 
 .grid-h5 {
   font-family: 'Satoshi', sans-serif;
   margin-bottom: 4px;
   font-size: large;
-  width: 100%;
+  width: 101%;
 }
 
 .row-grid {
