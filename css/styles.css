@@ -6,7 +6,6 @@ body {
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
-
 .nav-btn {
   font-family: 'Satoshi', sans-serif;
   background-color: #773dd3;
@@ -327,7 +326,6 @@ input[type="search"]:focus {
 
 .FAQ-down-png {
   transition: transform 0.5s ease-in-out;
-
 }
 
 .FAQ-down-png:hover, .FAQ-down-png:active {
